@@ -1,0 +1,9 @@
+<div *ngFor="let item of items" class="row item">
+  <div class="col-md-8">
+    {{item.name}}<span class="item-count">{{item.count}}</span>
+  </div>
+  <div class="col-md-4">
+    <input class="delete-button" type="button" value="Delete" (click)= 'deleteItem(item)'/>
+  </div>
+</div>
+

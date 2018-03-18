@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+.dapp{
+    background-color: rgb(43, 47, 62);
+    color: red;
+}
+.add-new{
+    background-color: rgb(39, 204, 192);
+    border-radius: 2px;
+    color: white;
+    border: none;
+    width: 100%;
+    height: 37px;
+
+}
+
+.item-name {
+    width: 100%;
+    height: 37px;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 2px;
+    border-collapse: collapse;
+    padding-left: 11px;
+}
+
+.dapp-h1{
+    color: white;
+    text-transform: capitalize;
+    font-size: 28px;
+    margin-top: 27px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+
+.tog {
+    font-size: 28px;
+    color: rgb(86, 90, 105);
+}
+
+.no-sence-comments{
+    color: rgb(128,128,128);
+    margin-left: 30px;
+}
+
+.items-container {
+    margin-top: 32px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+}
+
+.delete-button{
+    border-color: rgb(255, 152, 172);
+    color: rgb(255, 48, 90);
+    background-color: transparent;
+    border-radius: 4px;
+    width: 98px;
+    height: 36px;
+}
+
+.comment-text{
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+.blue-square{
+    background-color: rgb(71, 86, 140);
+    width: 51px;
+    height: 51px;
+    margin-top: 15px;
+}
+
+.orange-square{
+    background-color: rgb(255, 138, 0);
+    width: 51px;
+    height: 51px;
+}
+
+.square {
+    width: 51px;
+    height: 51px;
+}
+
+.add-comment-square {
+    background-color: rgb(230, 230, 230);
+    width: 51px;
+    height: 51px;
+}
+
+textarea.add-new-comment  {
+    resize: none;
+}
+
+.item {
+    margin-top: 20px;
+}
+
+.item-count {
+    background-color: rgb(39, 204, 192);
+    color: white;
+    padding: 4px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+}
